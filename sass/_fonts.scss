@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Poppins:500&display=swap&subset=cyrillic');
+
+@mixin pops {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+@mixin play {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
