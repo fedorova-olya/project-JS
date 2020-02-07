@@ -1,0 +1,43 @@
+.footer
+    //min-height: 600px
+    background: url('/img/photo-1418065460487-3e41a6c84dc5.jpg') no-repeat center
+    background-size: cover
+    position: relative
+    & .container
+        +flex-center
+        padding: 5% 0
+    &-form 
+        width: 670px
+        height: 330px
+        background: rgba(23,31,33,.9)
+        & p 
+            font-size: 16px
+            letter-spacing: 1px
+            line-height: 30px
+            color: #fff
+            +pops
+            text-align: center
+            margin: 8% 13% 0 13%
+        form
+            +flex-center
+            flex-wrap: wrap
+            margin: 60px 0
+            input
+                width: 250px
+                height: 46px
+                margin: 0 16px 22px 0
+                background: #2c3c41
+                border-radius: 22px
+                border: 1px solid #4f5156
+                padding-left: 15px
+                &::placeholder
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    line-height: 40px;
+                    color: #fff
+                    +pops
+                    text-transform: uppercase
+                    
+            input+input
+                margin: 0 0 22px 16px
+       

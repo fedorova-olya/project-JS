@@ -1,32 +1,62 @@
 .navbar
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    background: #fdfdfd
+    z-index: 5
     &-wrap 
         display: flex
         align-items: center
-        min-height: 135px
+        min-height: 105px
     &__logo
         display: flex
         width: 95%
         align-items: center
         flex-direction: column
         & h2 
-            font-size: 68px
+            font-size: 38px
             color: #fff
             display: flex
             align-items: center
             justify-content: center
-            width: 296px
-            min-height: 177px
+            width: 160px
+            min-height: 85px
             background-color: #80b7b3
             position: relative
             box-shadow: 0px 0px 20px #273d46
         & h1 
-            font-size: 189px
+            font-size: 90px
             letter-spacing: 38px
             text-transform: uppercase
             line-height: 88px
             color: rgba(39,61,70,.2)
-            padding: 0 0 45px 45px;
+            padding: 0 0 45px 45px
 .menu
+    position: fixed
+    z-index: 0
+    top: 215px
+    left: 0
+    padding: 16px 0
+    width: 100%
+    background: #80b7b3
+    transform: translateY(-100%)
+    // &_active
+    //     transform: translateY(0)
+    //     menu > z-index:10
+    &__nav
+        display: flex
+        justify-content: space-between
+        padding-left: 0
+        & li 
+            list-style: none
+                
+    &__link
+        text-decoration: none
+        font-size: 17px
+        color: #ffffff
+        text-transform: uppercase
+            
     &-button 
         flex-direction: column
         background: transparent

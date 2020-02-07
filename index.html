@@ -7,29 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normolize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Project JS</title>
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar">
+        <div class="menu menu_active">
             <div class="container">
-               <div class="navbar-wrap">
-                <button class="menu-button">
-                    <span class="menu-button__line"></span>
-                    <span class="menu-button__line button"></span>
-                    <span class="menu-button__line"></span>
-                </button>
-                <div class="logo navbar__logo">
-                    <h2>Marsy..</h2>
-                    <h1>story</h1>
+                <nav>
+                    <ul class="menu__nav">
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                        <li><a href="#" class="menu__link">link</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /container -->
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-wrap">
+                    <button class="menu-button">
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line button"></span>
+                        <span class="menu-button__line"></span>
+                    </button>
+                    <div class="logo navbar__logo">
+                        <h2>Marsy..</h2>
+                        <h1>story</h1>
+                    </div>
                 </div>
-               </div>
             </div>
             <!-- container -->
-        </nav>
+        </div>
         <!-- /.navbar -->
     </header>
     <!-- /.header -->
@@ -38,8 +54,10 @@
             <div class="travel-mountain__text">
                 <h3>travel</h3>
                 <h4>Nullam id dolor id nibh ultricies vehicula ut id elit. </h4>
-                <p class="travel-block__paragraph">Etiam porta sem malesuada magna mollis euismod. Maecenas faucib mollis interdum. Dones id elit non mi porta gravida at eget metus</p>
-                <p class="travel-block__paragraph">Nullam id dollor id nibhultricies vehicula ul id elit. Morbi leo risus, porta ac, vestibulum at eros</p>
+                <p class="travel-block__paragraph">Etiam porta sem malesuada magna mollis euismod. Maecenas faucib
+                    mollis interdum. Dones id elit non mi porta gravida at eget metus</p>
+                <p class="travel-block__paragraph">Nullam id dollor id nibhultricies vehicula ul id elit. Morbi leo
+                    risus, porta ac, vestibulum at eros</p>
                 <a href="#" class="button button__a">full story<i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="travel-mountain__img">
@@ -51,18 +69,56 @@
             <h3>tavel</h3>
             <h4>Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum</h4>
             <img src="/img/light-man.jpg" alt="light-man">
-           <div class="travel-plain__text">
-            <p class="travel-block__paragraph">Etiam porta sem malesuada magna mollis euismod. Maecenas faucib mollis interdum. Dones id elit non mi porta gravida at eget metus</p>
-            <p class="travel-block__paragraph">Nullam id dollor id nibhultricies vehicula ul id elit. Morbi leo risus, porta ac, vestibulum at eros</p class="travel-block__paragraph">
-            <a href="#" class="button button__a">full story<i class="fas fa-arrow-right"></i></a>
-           </div>
-           <!-- /.travel-plain__text -->
+            <div class="travel-plain__text">
+                <p class="travel-block__paragraph">Etiam porta sem malesuada magna mollis euismod. Maecenas faucib
+                    mollis interdum. Dones id elit non mi porta gravida at eget metus</p>
+                <p class="travel-block__paragraph">Nullam id dollor id nibhultricies vehicula ul id elit. Morbi leo
+                    risus, porta ac, vestibulum at eros</p class="travel-block__paragraph">
+                <a href="#" class="button button__a">full story<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <!-- /.travel-plain__text -->
         </div>
         <!-- /.travel-plain -->
     </main>
     <!-- /main -->
+    <section class="block-video">
+        <iframe width="100%" height="510px" src="https://www.youtube.com/embed/qdx7HWK_pjQ" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!-- /.block-video -->
+    <section class="quote container">
+        <div class="quote__title">
+            <h3>quote</h3>
+            <h4>Nullam id dolor id nibh ultricies vehicula elit. </h4>
+        </div>
+        <div class="quote-block">
+            <p class="travel-block__paragraph">"Donec id elit non mi porta gravida at eget metus. Vestibulum id
+                ligula
+                porta felis euismod semper.
+                Curabitur blandit tempus porttitor
+                "</br>
+                <span>VEN diesel </span><span>1962-2006</span>
 
-    
+            </p><a href="#" class="button button__a">full story<i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+    <!-- /.quote -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-form">
+                <p>Like what you're reading? Get weekly updates that will help you grow as a designer</p>
+                <form action="#">
+                    <input type="login" id="login" placeholder="name">
+                    <input type="email" id="email" placeholder="email">
+                    <button type="submit" id="submit" class="button button__a">Subscribe<i
+                            class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </footer>
+    <!-- /.footer -->
     <script src="js/script.js"></script>
 </body>
 

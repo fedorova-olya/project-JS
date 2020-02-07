@@ -1,0 +1,43 @@
+.quote
+    margin-top: 160px
+    padding-bottom: 100px
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    &__title
+        width: 50%
+        position: relative
+
+        &:before 
+            content: ""
+            width: 429px
+            height: 286px
+            background: #ced6d9
+            border: 15px solid #fff
+            filter: drop-shadow(0px 15px 32.5px rgba(15,16,16,0.2))
+            position: absolute
+            top: -50px;
+            left: -560px;
+    & .quote-block
+        width: 77%
+        padding: 0 100px
+        font-style: italic
+        letter-spacing: 1.5px
+        background: #fff
+        border: 15px #fff solid
+        filter: drop-shadow(0px 15px 32.5px rgba(15,16,16,0.2))
+        position: relative
+        & span
+            +pops
+            font-size: 14px
+            font-style: normal
+            display: inline-flex
+            margin: 30px 15px 30px 0
+            text-transform: uppercase
+        & span+span    
+            color: #7a7b7c
+        & a 
+            font-size: 14px
+            font-style: normal
+            margin: 0 auto -36px
+        
